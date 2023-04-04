@@ -37,6 +37,8 @@ export class PopupComponent implements OnInit, OnDestroy {
       // We're subtracting 1 because the interval timer doesn't start until after 1 second, so in reality it takes 2 seconds to show any meaning
       this.timeLeft = this.redirectTime - x - 1;
       if (this.timeLeft === 0) {
+        // Because we're using window.location to avoid some weird issues with navigation, we push the location of the current page to the browser using the History API first
+        window.history.pushState({}, '');
         window.location.replace(this.redirectLink);
       }
     });

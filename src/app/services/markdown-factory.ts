@@ -36,9 +36,17 @@ export function markedOptionsFactory(): MarkedOptions {
     let returnTag;
 
     if (ordered) {
-      returnTag = `<ol class="list-decimal mb-4">${body}</ol>`;
+      /*
+        This god-awful Tailwind expression allows me to apply CSS to the immediate list objects ONLY if they are members of an <ol> tag. The reason being is that
+        if we put this CSS directly on the <li> tags, even if the list wasn't an ordered list, it would still number them out due to using the counter() function
+        Now, WHY, you may ask, are we doing this? Simple. To make the numbers bold. ......Yeah. You know, you'd think CSS would have this feature
+
+        Unfortunately, Marked.js doesn't have a renderer override for list items in an ordered or unordered list like the base list override does.
+        That's why we have to do this.
+      */
+      returnTag = `<ol class="list-none [counter-reset:item] mb-4 [&>li]:[counter-increment:item] before:[&>li]:mr-[10px] before:[&>li]:[content:counter(item)')_'] before:[&>li]:font-bold before:[&>li]:text-center before:[&>li]:inline-block">${body}</ol>`;
     } else {
-      returnTag = `<ul class="list-disc mb-4">${body}</ul>`;
+      returnTag = `<ul class="list-disc list-inside mb-4">${body}</ul>`;
     }
 
     return returnTag;
