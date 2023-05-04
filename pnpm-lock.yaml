@@ -8,8 +8,8 @@ dependencies:
     specifier: ^15.2.5
     version: 15.2.5(@angular/core@15.2.5)
   '@angular/cdk':
-    specifier: 15.2.5
-    version: 15.2.5(@angular/common@15.2.5)(@angular/core@15.2.5)(rxjs@7.8.0)
+    specifier: 15.2.9
+    version: 15.2.9(@angular/common@15.2.5)(@angular/core@15.2.5)(rxjs@7.8.0)
   '@angular/common':
     specifier: ^15.2.5
     version: 15.2.5(@angular/core@15.2.5)(rxjs@7.8.0)
@@ -395,8 +395,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@angular/cdk@15.2.5(@angular/common@15.2.5)(@angular/core@15.2.5)(rxjs@7.8.0):
-    resolution: {integrity: sha512-6/vA4xATcx//AULwXnRRH0Of0aaNlfrFxdlhvRVfnfmxi/hZAkjjEtil/wv8uBw+dAwXBx5yZMsAol9nUFS/BQ==}
+  /@angular/cdk@15.2.9(@angular/common@15.2.5)(@angular/core@15.2.5)(rxjs@7.8.0):
+    resolution: {integrity: sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==}
     peerDependencies:
       '@angular/common': ^15.0.0 || ^16.0.0
       '@angular/core': ^15.0.0 || ^16.0.0
