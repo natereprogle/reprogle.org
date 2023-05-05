@@ -72,6 +72,7 @@ export class BlogComponent implements OnInit, OnDestroy {
       this.page += 1;
     }
 
+    // noinspection JSIgnoredPromiseFromCall
     this.router.navigate([], {
       relativeTo: this.route,
       queryParams: { page: this.page },

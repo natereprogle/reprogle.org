@@ -22,6 +22,10 @@
       </p>
     </div>
     <div class="mb-7 block text-white md:flex md:justify-between" id="contact-form">
+      <!-- There is a bug in WebStorm where it thinks ngNativeValidate is not allowed,
+        even though the Angular language service itself says it is.
+        We are just blocking WebStorm from inspecting here-->
+      <!--suppress AngularUndefinedBinding -->
       <form
         (ngSubmit)="handleSubmit()"
         class="flex flex-col items-start"

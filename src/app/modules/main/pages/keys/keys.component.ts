@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { LinkInjectorService } from 'src/app/services/link-injector.service';
+import { LinkInjectorService } from 'src/app/modules/main/services/link-injector.service';
 
-import { metaTags } from 'src/app/metaTags';
+import { metaTags } from 'src/app/modules/main/metaTags';
 
 @Component({
   selector: 'app-keys',

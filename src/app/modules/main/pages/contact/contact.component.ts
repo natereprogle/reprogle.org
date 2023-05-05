@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { LinkInjectorService } from 'src/app/services/link-injector.service';
+import { LinkInjectorService } from 'src/app/modules/main/services/link-injector.service';
 import { isDevMode } from '@angular/core';
 
-import { metaTags } from 'src/app/metaTags';
-import { environment } from '../../../environments/environment';
+import { metaTags } from 'src/app/modules/main/metaTags';
+import { environment } from '../../../../../environments/environment';
 
 type Message = {
   firstName: string;

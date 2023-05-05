@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Blog } from '../../pages/blog/blog';
-import { LinkInjectorService } from '../../services/link-injector.service';
+import { LinkInjectorService } from '../../../main/services/link-injector.service';
 import { Router } from '@angular/router';
 
 @Component({

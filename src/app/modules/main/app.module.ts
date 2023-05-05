@@ -9,26 +9,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { KeysComponent } from './pages/keys/keys.component';
 import { MainComponent } from './pages/main/main.component';
-import { HeaderComponent } from './components/header/header.component';
 import { ResumeItemComponent } from './components/resume-item/resume-item.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PopupComponent } from './components/popup/popup.component';
 
 import { NgxTurnstileModule } from 'ngx-turnstile';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
-import { provideFirestore, getFirestore } from '@angular/fire/firestore';
-import {
-  provideRemoteConfig,
-  getRemoteConfig,
-} from '@angular/fire/remote-config';
 import { NgOptimizedImage } from '@angular/common';
-import { BlogComponent } from './pages/blog/blog.component';
-import { BlogPostComponent } from './pages/blog-post/blog-post.component';
-import { BlogCardComponent } from './components/blog-card/blog-card.component';
-import { markedOptionsFactory } from './services/markdown-factory';
-import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {  HttpClientModule } from '@angular/common/http';
+import {SharedModule} from "../shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -37,13 +25,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ContactComponent,
     KeysComponent,
     MainComponent,
-    HeaderComponent,
     ResumeItemComponent,
     FooterComponent,
-    PopupComponent,
-    BlogComponent,
-    BlogPostComponent,
-    BlogCardComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
@@ -53,16 +37,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     FormsModule,
     NgOptimizedImage,
     HttpClientModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore()),
-    provideRemoteConfig(() => getRemoteConfig()),
-    MarkdownModule.forRoot({
-      loader: HttpClient,
-      markedOptions: {
-        provide: MarkedOptions,
-        useFactory: markedOptionsFactory,
-      },
-    }),
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent],
