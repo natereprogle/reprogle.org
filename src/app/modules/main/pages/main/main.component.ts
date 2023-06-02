@@ -9,6 +9,6 @@ export class MainComponent {
   headerText = 'Hello, my name is';
   mainText = 'Nate Reprogle';
   footerText = 'IT Enthusiast';
-  image = '/assets/Profile.jpg';
+  image = '/assets/Profile.png';
   imageAlt = 'Nate Reprogle';
 }
