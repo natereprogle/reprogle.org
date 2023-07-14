@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -12,8 +12,8 @@ dependencies:
     specifier: ^16.0.0
     version: 16.0.0(@angular/core@16.0.0)
   '@angular/cdk':
-    specifier: 16.1.3
-    version: 16.1.3(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.1)
+    specifier: 16.1.5
+    version: 16.1.5(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.1)
   '@angular/common':
     specifier: ^16.0.0
     version: 16.0.0(@angular/core@16.0.0)(rxjs@7.8.1)
@@ -458,8 +458,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@angular/cdk@16.1.3(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.1):
-    resolution: {integrity: sha512-PsBcJSIX6D1w1OhHfcfi21Dug/eBWexlQ1XuU3CkLxC4BLvmpOEtugRKwIhSpaio3RauSaQydvlDHkiQsQbiKw==}
+  /@angular/cdk@16.1.5(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-8wjYhLwW9bWicBYSdDXuN71SBP7NbJmXs+XiWiRkaFUkVDeU9z8Qkitogl+qqsSXvsOmi+12MowrbJ3tPizaLw==}
     peerDependencies:
       '@angular/common': ^16.0.0 || ^17.0.0
       '@angular/core': ^16.0.0 || ^17.0.0
@@ -468,7 +468,7 @@ packages:
       '@angular/common': 16.0.0(@angular/core@16.0.0)(rxjs@7.8.1)
       '@angular/core': 16.0.0(rxjs@7.8.1)(zone.js@0.13.0)
       rxjs: 7.8.1
-      tslib: 2.5.0
+      tslib: 2.5.3
     optionalDependencies:
       parse5: 7.1.2
     dev: false
@@ -3028,7 +3028,7 @@ packages:
       nx: 16.2.2
       semver: 7.3.4
       tmp: 0.2.1
-      tslib: 2.5.0
+      tslib: 2.5.3
     dev: true
 
   /@nx/nx-darwin-arm64@16.2.2:
@@ -7953,7 +7953,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.5.0
+      tslib: 2.5.3
       v8-compile-cache: 2.3.0
       yargs: 17.7.2
       yargs-parser: 21.1.1
