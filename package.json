@@ -27,7 +27,7 @@
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
     "@types/express": "^4.17.17",
-    "marked": "^5.0.0",
+    "marked": "^8.0.0",
     "ngx-google-analytics": "^14.0.1",
     "ngx-markdown": "^16.0.0",
     "ngx-turnstile": "^0.0.7",
