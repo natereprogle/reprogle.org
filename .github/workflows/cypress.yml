@@ -13,7 +13,7 @@ jobs:
     steps:
         # Checkout the branch
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
         # Create the test environment file from Actions Secrets
       - name: Echo secrets
@@ -47,7 +47,7 @@ jobs:
 
         # Setup a build cache for Cypress so we don't have to install it every time
       - name: Cache
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v3.3.2
         with:
           path: '/home/runner/.cache/Cypress'
           key: ${{ runner.os }}-cypres-cache-${{ hashFiles('**/pnpm-lock.yaml') }}
