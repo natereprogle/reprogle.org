@@ -107,13 +107,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reprogleorg:build:production"
+              "buildTarget": "reprogleorg:build:production"
             },
             "development": {
-              "browserTarget": "reprogleorg:build:development"
+              "buildTarget": "reprogleorg:build:development"
             },
             "test": {
-              "browserTarget": "reprogleorg:build:test"
+              "buildTarget": "reprogleorg:build:test"
             }
           },
           "defaultConfiguration": "development"
@@ -121,7 +121,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reprogleorg:build"
+            "buildTarget": "reprogleorg:build"
           }
         },
         "lint": {

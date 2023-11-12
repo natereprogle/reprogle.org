@@ -12,7 +12,7 @@ export class BlogCardComponent {
   @Input() blogPost: Blog | null = null;
 
   constructor(
-    private linkInjector: LinkInjectorService,
+    linkInjector: LinkInjectorService,
     private router: Router
   ) {
     linkInjector.createLink('preconnect', 'https://images.unsplash.com');
