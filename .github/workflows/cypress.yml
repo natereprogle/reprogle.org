@@ -13,7 +13,7 @@ jobs:
     steps:
         # Checkout the branch
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
         # Create the test environment file from Actions Secrets
       - name: Echo secrets
