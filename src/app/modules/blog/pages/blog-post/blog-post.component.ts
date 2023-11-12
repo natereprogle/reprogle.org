@@ -16,7 +16,7 @@ export class BlogPostComponent implements OnInit {
   loading = true;
   notFound = false;
 
-  constructor(private activeRoute: ActivatedRoute, private store: Firestore) {
+  constructor(activeRoute: ActivatedRoute, private store: Firestore) {
     this.blogId = activeRoute.snapshot.paramMap.get('id');
   }
 
