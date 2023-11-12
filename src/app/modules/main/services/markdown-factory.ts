@@ -70,7 +70,5 @@ export function markedOptionsFactory(): MarkedOptions {
     gfm: true,
     breaks: false,
     pedantic: false,
-    smartypants: true,
-    smartLists: true,
   };
 }
