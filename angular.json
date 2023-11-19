@@ -21,11 +21,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/reprogleorg",
             "index": "src/index.html",
-            "main": "src/main.ts",
+            "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -75,9 +75,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": false,
               "optimization": false,
-              "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true,
@@ -89,9 +87,7 @@
               ]
             },
             "test": {
-              "buildOptimizer": true,
               "optimization": false,
-              "vendorChunk": true,
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -107,13 +103,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reprogleorg:build:production"
+              "buildTarget": "reprogleorg:build:production"
             },
             "development": {
-              "browserTarget": "reprogleorg:build:development"
+              "buildTarget": "reprogleorg:build:development"
             },
             "test": {
-              "browserTarget": "reprogleorg:build:test"
+              "buildTarget": "reprogleorg:build:test"
             }
           },
           "defaultConfiguration": "development"
@@ -121,7 +117,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reprogleorg:build"
+            "buildTarget": "reprogleorg:build"
           }
         },
         "lint": {
