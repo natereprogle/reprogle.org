@@ -12,8 +12,8 @@ dependencies:
     specifier: ^17.0.2
     version: 17.0.2(@angular/core@17.0.2)
   '@angular/cdk':
-    specifier: 17.0.0
-    version: 17.0.0(@angular/common@17.0.2)(@angular/core@17.0.2)(rxjs@7.8.1)
+    specifier: 17.0.1
+    version: 17.0.1(@angular/common@17.0.2)(@angular/core@17.0.2)(rxjs@7.8.1)
   '@angular/common':
     specifier: ^17.0.2
     version: 17.0.2(@angular/core@17.0.2)(rxjs@7.8.1)
@@ -465,8 +465,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@angular/cdk@17.0.0(@angular/common@17.0.2)(@angular/core@17.0.2)(rxjs@7.8.1):
-    resolution: {integrity: sha512-8F1z0YhDjKWqB29+AUh33OKr2Ts5PVUUogVXEVmmPipPDtj82iIQLbtBnR6xpWvmsw9mS3oD76EwBoUhHQgi6g==}
+  /@angular/cdk@17.0.1(@angular/common@17.0.2)(@angular/core@17.0.2)(rxjs@7.8.1):
+    resolution: {integrity: sha512-0hrXm2D0s0/vUtDoLFRWTs75k5WY/hQmfnsaJXHeqinbE3eKOxmQxL1i7ymnMSQthEWzgRAhzS3Nfs7Alw3dQA==}
     peerDependencies:
       '@angular/common': ^17.0.0 || ^18.0.0
       '@angular/core': ^17.0.0 || ^18.0.0
@@ -4076,6 +4076,8 @@ packages:
   /at-least-node@1.0.0:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
+    dev: true
+
   /autoprefixer@10.4.16(postcss@8.4.31):
     resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
@@ -8845,6 +8847,7 @@ packages:
     dependencies:
       find-up: 6.3.0
     dev: true
+
   /portscanner@2.2.0:
     resolution: {integrity: sha512-IFroCz/59Lqa2uBvzK3bKDbDDIEaAY8XJ1jFxcLWTqosrsc32//P4VuSB2vZXoHiHqOmx8B5L5hnKOxL/7FlPw==}
     engines: {node: '>=0.4', npm: '>=1.0.0'}
@@ -8852,6 +8855,7 @@ packages:
       async: 2.6.4
       is-number-like: 1.0.8
     dev: true
+
   /postcss-import@15.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
