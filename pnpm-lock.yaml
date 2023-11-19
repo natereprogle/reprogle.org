@@ -51,8 +51,8 @@ dependencies:
     specifier: ^17.0.0
     version: 17.0.0(@angular/common@17.0.2)(@angular/core@17.0.2)(@angular/platform-browser@17.0.2)(marked@10.0.0)(rxjs@7.8.1)(zone.js@0.14.2)
   ngx-turnstile:
-    specifier: ^0.0.7
-    version: 0.0.7(@angular/common@17.0.2)(@angular/core@17.0.2)
+    specifier: ^0.1.0
+    version: 0.1.0(@angular/common@17.0.2)(@angular/core@17.0.2)
   prismjs:
     specifier: ^1.29.0
     version: 1.29.0
@@ -4076,6 +4076,8 @@ packages:
   /at-least-node@1.0.0:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
+    dev: true
+
   /autoprefixer@10.4.16(postcss@8.4.31):
     resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
@@ -8241,11 +8243,11 @@ packages:
       - supports-color
     dev: false
 
-  /ngx-turnstile@0.0.7(@angular/common@17.0.2)(@angular/core@17.0.2):
-    resolution: {integrity: sha512-lMXHayi8OrZcZDGI7QWG0CegzPlo0dHRiMMxBZarw6NmmB3zp22WCKBABinFfy0XrsjjsJNs0tUjvqmBURVHrw==}
+  /ngx-turnstile@0.1.0(@angular/common@17.0.2)(@angular/core@17.0.2):
+    resolution: {integrity: sha512-ee1qLjO7VyGH+Ngn1ecvE+4nmYblLV4BFyg9mun/u390pq8RSexMJyZUkK52tC3R5COQwmGOUl1IOTMwTFNZgw==}
     peerDependencies:
-      '@angular/common': ^14.2.0
-      '@angular/core': ^14.2.0
+      '@angular/common': ^16.0.0
+      '@angular/core': ^16.0.0
     dependencies:
       '@angular/common': 17.0.2(@angular/core@17.0.2)(rxjs@7.8.1)
       '@angular/core': 17.0.2(rxjs@7.8.1)(zone.js@0.14.2)
@@ -8845,6 +8847,7 @@ packages:
     dependencies:
       find-up: 6.3.0
     dev: true
+
   /portscanner@2.2.0:
     resolution: {integrity: sha512-IFroCz/59Lqa2uBvzK3bKDbDDIEaAY8XJ1jFxcLWTqosrsc32//P4VuSB2vZXoHiHqOmx8B5L5hnKOxL/7FlPw==}
     engines: {node: '>=0.4', npm: '>=1.0.0'}
@@ -8852,6 +8855,7 @@ packages:
       async: 2.6.4
       is-number-like: 1.0.8
     dev: true
+
   /postcss-import@15.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
