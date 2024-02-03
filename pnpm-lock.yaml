@@ -42,14 +42,14 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   marked:
-    specifier: ^11.0.0
-    version: 11.0.0
+    specifier: ^12.0.0
+    version: 12.0.0
   ngx-google-analytics:
     specifier: ^14.0.1
     version: 14.0.1(@angular/common@17.0.3)(@angular/core@17.0.3)
   ngx-markdown:
     specifier: ^17.1.0
-    version: 17.1.0(@angular/common@17.0.3)(@angular/core@17.0.3)(@angular/platform-browser@17.0.3)(marked@11.0.0)(rxjs@7.8.1)(zone.js@0.14.2)
+    version: 17.1.0(@angular/common@17.0.3)(@angular/core@17.0.3)(@angular/platform-browser@17.0.3)(marked@12.0.0)(rxjs@7.8.1)(zone.js@0.14.2)
   ngx-turnstile:
     specifier: ^0.1.0
     version: 0.1.0(@angular/common@17.0.3)(@angular/core@17.0.3)
@@ -7706,8 +7706,8 @@ packages:
       - supports-color
     dev: true
 
-  /marked@11.0.0:
-    resolution: {integrity: sha512-2GsW34uXaFEGTQ/+3rCnNC6vUYTAgFuDLGl70v/aWinA5mIJtTrrFAmfbLOfVvgPyxXuDVL9He/7reCK+6j3Sw==}
+  /marked@12.0.0:
+    resolution: {integrity: sha512-Vkwtq9rLqXryZnWaQc86+FHLC6tr/fycMfYAhiOIXkrNmeGAyhSxjqu0Rs1i0bBqw5u0S7+lV9fdH2ZSVaoa0w==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
@@ -8268,7 +8268,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /ngx-markdown@17.1.0(@angular/common@17.0.3)(@angular/core@17.0.3)(@angular/platform-browser@17.0.3)(marked@11.0.0)(rxjs@7.8.1)(zone.js@0.14.2):
+  /ngx-markdown@17.1.0(@angular/common@17.0.3)(@angular/core@17.0.3)(@angular/platform-browser@17.0.3)(marked@12.0.0)(rxjs@7.8.1)(zone.js@0.14.2):
     resolution: {integrity: sha512-jq0EvUVXTFZxNOCEhnvMSCVB/WSx8+Ac8MRXXxyibHI4JyXYo4MwRp/U+msTHGNb77KYyVtXGemID4SjsNLYiA==}
     peerDependencies:
       '@angular/common': ^17.0.0
@@ -8281,7 +8281,7 @@ packages:
       '@angular/common': 17.0.3(@angular/core@17.0.3)(rxjs@7.8.1)
       '@angular/core': 17.0.3(rxjs@7.8.1)(zone.js@0.14.2)
       '@angular/platform-browser': 17.0.3(@angular/animations@17.0.3)(@angular/common@17.0.3)(@angular/core@17.0.3)
-      marked: 11.0.0
+      marked: 12.0.0
       rxjs: 7.8.1
       tslib: 2.6.2
       zone.js: 0.14.2
