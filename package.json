@@ -30,7 +30,7 @@
     "marked": "^11.0.0",
     "ngx-google-analytics": "^14.0.1",
     "ngx-markdown": "^17.1.0",
-    "ngx-turnstile": "^0.1.0",
+    "ngx-turnstile": "^0.2.0",
     "prismjs": "^1.29.0",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
