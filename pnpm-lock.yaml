@@ -7320,8 +7320,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /katex@0.16.9:
-    resolution: {integrity: sha512-fsSYjWS0EEOwvy81j3vRA8TEAhQhKiqO+FQaKWp0m39qwOzHVBgAUBIXWj1pB+O2W3fIpNa6Y9KSKCVbfPhyAQ==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -7432,8 +7432,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.5)
@@ -8241,7 +8239,7 @@ packages:
     optionalDependencies:
       clipboard: 2.0.11
       emoji-toolkit: 8.0.0
-      katex: 0.16.9
+      katex: 0.16.10
       mermaid: 10.6.1
       prismjs: 1.29.0
     transitivePeerDependencies:
