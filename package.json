@@ -43,7 +43,7 @@
     "@angular-eslint/eslint-plugin-template": "17.2.0",
     "@angular-eslint/schematics": "17.2.0",
     "@angular-eslint/template-parser": "17.2.0",
-    "@angular/cli": "17.0.10",
+    "@angular/cli": "17.3.2",
     "@angular/compiler-cli": "^17.0.3",
     "@cypress/schematic": "2.5.1",
     "@types/node": "^20.9.2",
