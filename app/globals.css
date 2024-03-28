@@ -46,9 +46,30 @@ A bunch of classes to enable highlighting of text.
     }
 }
 
+@-webkit-keyframes highlight-appear {
+    from {
+        width: 0;
+    }
+    to {
+        width: calc(100% + 4px);
+    }
+}
+
+@-moz-keyframes highlight-appear {
+    from {
+        width: 0;
+    }
+    to {
+        width: calc(100% + 4px);
+    }
+}
+
 .highlight-blue {
     position: relative;
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 .highlight-blue::before {
@@ -62,6 +83,9 @@ A bunch of classes to enable highlighting of text.
     z-index: -1;
     transform: rotate(-1deg);
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,6 +97,9 @@ A bunch of classes to enable highlighting of text.
 .highlight-orange {
     position: relative;
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 /*noinspection DuplicatedCode*/
@@ -87,6 +114,9 @@ A bunch of classes to enable highlighting of text.
     z-index: -1;
     transform: rotate(-1deg);
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -98,6 +128,9 @@ A bunch of classes to enable highlighting of text.
 .highlight-green {
     position: relative;
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 /*noinspection DuplicatedCode*/
@@ -112,6 +145,9 @@ A bunch of classes to enable highlighting of text.
     z-index: -1;
     transform: rotate(-1deg);
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -123,6 +159,9 @@ A bunch of classes to enable highlighting of text.
 .highlight-raisin {
     position: relative;
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 /*noinspection DuplicatedCode*/
@@ -137,6 +176,9 @@ A bunch of classes to enable highlighting of text.
     z-index: -1;
     transform: rotate(-1deg);
     animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    -webkit-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1)
+        forwards; /* for WebKit browsers */
+    -moz-animation: highlight-appear 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards; /* for Mozilla browsers */
 }
 
 @media (prefers-color-scheme: dark) {

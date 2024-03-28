@@ -3,7 +3,7 @@ import styles from '@/components/nav/nav.module.css'
 export default function Nav() {
     return (
         <nav
-            className={`p-3 md:w-2/3 xl:w-1/2 md:my-7 mx-auto flex justify-center items-center space-x-2 ${styles.navbar}`}>
+            className={`p-3 md:w-2/3 xl:w-[40%] md:my-7 mx-auto flex justify-center items-center space-x-2 text-xs sm:text-base ${styles.navbar}`}>
             <ul className="flex justify-center gap-5 md:gap-10">
                 <li>
                     <a href="/" className={'flex space-x-1'}>
@@ -13,7 +13,7 @@ export default function Nav() {
                             viewBox="0 0 24 24"
                             strokeWidth="1.5"
                             stroke="currentColor"
-                            className="h-6 w-6">
+                            className="h-5 w-5 sm:h-6 sm:w-6">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -31,7 +31,7 @@ export default function Nav() {
                             viewBox="0 0 24 24"
                             strokeWidth="1.5"
                             stroke="currentColor"
-                            className="h-6 w-6">
+                            className="h-5 w-5 sm:h-6 sm:w-6">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -49,7 +49,7 @@ export default function Nav() {
                             viewBox="0 0 24 24"
                             strokeWidth="1.5"
                             stroke="currentColor"
-                            className="h-6 w-6">
+                            className="h-5 w-5 sm:h-6 sm:w-6">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -69,7 +69,7 @@ export default function Nav() {
                             viewBox="0 0 24 24"
                             strokeWidth="1.5"
                             stroke="currentColor"
-                            className="w-6 h-6">
+                            className="h-5 w-5 sm:h-6 sm:w-6">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
