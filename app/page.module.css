@@ -1,0 +1,26 @@
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-20px);
+    }
+}
+
+.bounce {
+    animation: scroll ease 1.5s infinite;
+}
+
+.fade-out {
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fade-in {
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    opacity: 100%;
+    visibility: inherit;
+}
