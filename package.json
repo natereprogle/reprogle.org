@@ -1,65 +1,35 @@
 {
-  "name": "reprogleorg",
-  "version": "2.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "echo \"Please run either start:dev or start:prod to begin development server based on environment\"",
-    "start:dev": "ng serve --host 0.0.0.0 --configuration=development",
-    "start:prod": "export NODE_ENV=prod && pnpm run build && ng serve --host 0.0.0.0 --configuration=production",
-    "build": "pnpm run config && ng build",
-    "watch": "ng build --watch --configuration development --host 0.0.0.0",
-    "config": "ts-node scripts/setenv.ts",
-    "lint": "ng lint",
-    "e2e": "pnpm run config && ng e2e --configuration test",
-    "cypress:open": "pnpm run config && cypress open",
-    "cypress:run": "pnpm run config && cypress run"
-  },
+  "name": "meetnate.dev",
+  "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@angular/animations": "^17.0.3",
-    "@angular/cdk": "17.0.1",
-    "@angular/common": "^17.0.3",
-    "@angular/compiler": "^17.0.3",
-    "@angular/core": "^17.0.3",
-    "@angular/fire": "16.0.0",
-    "@angular/forms": "^17.0.3",
-    "@angular/platform-browser": "^17.0.3",
-    "@angular/platform-browser-dynamic": "^17.0.3",
-    "@angular/router": "^17.0.3",
-    "@types/express": "^4.17.21",
-    "marked": "^10.0.0",
-    "ngx-google-analytics": "^14.0.1",
-    "ngx-markdown": "^17.1.0",
-    "ngx-turnstile": "^0.1.0",
-    "prismjs": "^1.29.0",
-    "rxjs": "~7.8.1",
-    "tslib": "^2.6.2",
-    "zone.js": "~0.14.2"
+    "@cloudflare/next-on-pages": "^1.11.0",
+    "@headlessui/react": "^1.7.18",
+    "@react-three/fiber": "^8.16.0",
+    "framer-motion": "^11.0.22",
+    "maath": "^0.10.7",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-tilt": "^1.0.2",
+    "three": "^0.162.0",
+    "typescript": "^5.4.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.1",
-    "@angular-eslint/builder": "17.1.0",
-    "@angular-eslint/eslint-plugin": "17.1.0",
-    "@angular-eslint/eslint-plugin-template": "17.1.0",
-    "@angular-eslint/schematics": "17.1.0",
-    "@angular-eslint/template-parser": "17.1.0",
-    "@angular/cli": "17.0.1",
-    "@angular/compiler-cli": "^17.0.3",
-    "@cypress/schematic": "2.5.1",
-    "@types/node": "^20.9.2",
-    "@typescript-eslint/eslint-plugin": "^6.11.0",
-    "@typescript-eslint/parser": "^6.11.0",
-    "autoprefixer": "^10.4.16",
-    "cypress": "^13.5.1",
-    "eslint": "^8.54.0",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "ts-node": "^10.9.1",
-    "typescript": "~5.2.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "rxfire>tslib": "^2.3.1"
-    }
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.22",
+    "@types/three": "^0.162.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.4",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }

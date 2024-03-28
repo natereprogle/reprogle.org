@@ -4,8 +4,8 @@
     "config:base",
     ":dependencyDashboard"
   ],
-  "baseBranches": ["dev"],
-  "lockFileMaintenance": { 
+  "baseBranches": ["main"],
+  "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
     "automergeType": "pr",
@@ -14,7 +14,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["lint", "prettier"],
+      "matchPackagePatterns": ["lint", "@types"],
       "automerge": true
     },
     {
