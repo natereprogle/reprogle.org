@@ -31,7 +31,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-tilt:
     specifier: ^1.0.2
-    version: 1.0.2(@types/react-dom@18.2.22)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
+    version: 1.0.2(@types/react-dom@18.2.23)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
   three:
     specifier: ^0.162.0
     version: 0.162.0
@@ -48,7 +48,7 @@ devDependencies:
     version: 18.2.73
   '@types/react-dom':
     specifier: ^18.2.22
-    version: 18.2.22
+    version: 18.2.23
   '@types/three':
     specifier: ^0.162.0
     version: 0.162.0
@@ -829,8 +829,8 @@ packages:
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  /@types/react-dom@18.2.22:
-    resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
+  /@types/react-dom@18.2.23:
+    resolution: {integrity: sha512-ZQ71wgGOTmDYpnav2knkjr3qXdAFu0vsk8Ci5w3pGAIdj7/kKAyn+VsQDhXsmzzzepAiI9leWMmubXz690AI/A==}
     dependencies:
       '@types/react': 18.2.73
 
@@ -4229,7 +4229,7 @@ packages:
       scheduler: 0.21.0
     dev: false
 
-  /react-tilt@1.0.2(@types/react-dom@18.2.22)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0):
+  /react-tilt@1.0.2(@types/react-dom@18.2.23)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-21tUUsmuw5id/6NDtKqwYTG4taVnw+BoUwIG6YsgPC9GI6cx4BnBuSqgriQYAYcv3bdGNzecaBL+rvQRAm28bg==}
     peerDependencies:
       '@types/react': ^18.0.29
@@ -4238,7 +4238,7 @@ packages:
       react-dom: ^18.2.0
     dependencies:
       '@types/react': 18.2.73
-      '@types/react-dom': 18.2.22
+      '@types/react-dom': 18.2.23
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
