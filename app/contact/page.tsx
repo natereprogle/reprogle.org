@@ -8,7 +8,7 @@ import {
     useScroll,
 } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
-import Footer from '@/components/footer.tsx/footer'
+import Footer from '@/components/footer/footer'
 import { Noto_Serif_Display } from 'next/font/google'
 
 const notoSerifDisplay = Noto_Serif_Display({

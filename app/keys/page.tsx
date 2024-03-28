@@ -3,7 +3,7 @@ import Header from '@/components/header/header'
 import styles from '@/app/keys/page.module.css'
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 import { useState } from 'react'
-import Footer from '@/components/footer.tsx/footer'
+import Footer from '@/components/footer/footer'
 
 export default function Keys() {
     const [isVisible, setIsVisible] = useState(true)
@@ -151,11 +151,7 @@ export default function Keys() {
                 </div>
             </div>
 
-            <hr
-                    className={
-                        'text-raisinblack-400 bg-raisinblack-400 h-[2px]'
-                    }
-                />
+            <hr className={'text-raisinblack-400 bg-raisinblack-400 h-[2px]'} />
             <Footer />
         </>
     )

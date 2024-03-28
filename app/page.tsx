@@ -6,7 +6,7 @@ import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 import styles from '@/app/page.module.css'
 import Header from '@/components/header/header'
 import Body from '@/components/body/body'
-import Footer from '@/components/footer.tsx/footer'
+import Footer from '@/components/footer/footer'
 
 export default function Home() {
     const [isVisible, setIsVisible] = useState(true)
