@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@cloudflare/next-on-pages':
     specifier: ^1.11.0
-    version: 1.11.0(vercel@33.7.1)(wrangler@3.49.0)
+    version: 1.11.0(vercel@34.0.0)(wrangler@3.50.0)
   '@headlessui/react':
     specifier: ^1.7.18
     version: 1.7.18(react-dom@18.2.0)(react@18.2.0)
@@ -31,7 +31,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-tilt:
     specifier: ^1.0.2
-    version: 1.0.2(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
+    version: 1.0.2(@types/react-dom@18.2.25)(@types/react@18.2.76)(react-dom@18.2.0)(react@18.2.0)
   three:
     specifier: ^0.162.0
     version: 0.162.0
@@ -45,10 +45,10 @@ devDependencies:
     version: 20.12.7
   '@types/react':
     specifier: ^18.2.73
-    version: 18.2.75
+    version: 18.2.76
   '@types/react-dom':
     specifier: ^18.2.22
-    version: 18.2.24
+    version: 18.2.25
   '@types/three':
     specifier: ^0.162.0
     version: 0.162.0
@@ -92,7 +92,7 @@ packages:
       mime: 3.0.0
     dev: false
 
-  /@cloudflare/next-on-pages@1.11.0(vercel@33.7.1)(wrangler@3.49.0):
+  /@cloudflare/next-on-pages@1.11.0(vercel@34.0.0)(wrangler@3.50.0):
     resolution: {integrity: sha512-/wKpDMrp2THkco+O5IKb7/JA07pppop4cRF3LEgL1FhJYxlOn3jo9WsZSuW58PovQJR2tZisLB/EJjJpmt1KOA==}
     hasBin: true
     peerDependencies:
@@ -115,8 +115,8 @@ packages:
       package-manager-manager: 0.2.0
       pcre-to-regexp: 1.1.0
       semver: 7.6.0
-      vercel: 33.7.1
-      wrangler: 3.49.0
+      vercel: 34.0.0
+      wrangler: 3.50.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -874,25 +874,25 @@ packages:
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  /@types/react-dom@18.2.24:
-    resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
+  /@types/react-dom@18.2.25:
+    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
 
   /@types/react-reconciler@0.26.7:
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
     dev: false
 
   /@types/react-reconciler@0.28.8:
     resolution: {integrity: sha512-SN9c4kxXZonFhbX4hJrZy37yw9e7EIxcpHCxQv5JUS18wDE5ovkQKlqQEkufdJCCMfuI9BnjUJvhYeJ9x5Ra7g==}
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
     dev: false
 
-  /@types/react@18.2.75:
-    resolution: {integrity: sha512-+DNnF7yc5y0bHkBTiLKqXFe+L4B3nvOphiMY3tuA5X10esmjqk7smyBZzbGTy2vsiy/Bnzj8yFIBL8xhRacoOg==}
+  /@types/react@18.2.76:
+    resolution: {integrity: sha512-T6z/v7YxpswDM61Vq5KoSPTJqCkroJfsDIsvXCr4+qOY6gik5Ju4w0jf67cpC5z7ydOnp/E0V0W08pDRy8u9Xw==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -3685,8 +3685,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /miniflare@3.20240405.0:
-    resolution: {integrity: sha512-OlC/96bIJA9FHvcjQMe4ZLU8FMXp4d2cGuIKOK7TxCmYRZqdVDLvVuOPUatWO8z9EtjWgiP9eGmY7O0KEdblvw==}
+  /miniflare@3.20240405.1:
+    resolution: {integrity: sha512-oShOR/ckr9JTO1bkPQH0nXvuSgJjoE+E5+M1tvP01Q8Z+Q0GJnzU2+FDYUH8yIK/atHv7snU8yy0X6KWVn1YdQ==}
     engines: {node: '>=16.13'}
     hasBin: true
     dependencies:
@@ -4341,7 +4341,7 @@ packages:
       scheduler: 0.21.0
     dev: false
 
-  /react-tilt@1.0.2(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0):
+  /react-tilt@1.0.2(@types/react-dom@18.2.25)(@types/react@18.2.76)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-21tUUsmuw5id/6NDtKqwYTG4taVnw+BoUwIG6YsgPC9GI6cx4BnBuSqgriQYAYcv3bdGNzecaBL+rvQRAm28bg==}
     peerDependencies:
       '@types/react': ^18.0.29
@@ -4349,8 +4349,8 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@types/react': 18.2.75
-      '@types/react-dom': 18.2.24
+      '@types/react': 18.2.76
+      '@types/react-dom': 18.2.25
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -5182,8 +5182,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@33.7.1:
-    resolution: {integrity: sha512-6VFasn9euV13r6T4q0o5twCopkvm1hYzOJIvS2PAJuNEYcf1tk6gT2Ym0RrXd5sXaWtW1PNHdNVvberkDdsnMA==}
+  /vercel@34.0.0:
+    resolution: {integrity: sha512-0Gewf/gB/UDnkGA/wyAzf3wxXuDqCvPFKFkAcByV3PuoCF5j71MqjV3GpFC0rQREF7CZZflFMhoaQO70a9x/fA==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -5309,8 +5309,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20240405.0
     dev: false
 
-  /wrangler@3.49.0:
-    resolution: {integrity: sha512-j+TfMxZ2CCMJtoipoLaWOjNlLoOyR5/W9Cdl4w7XBLh765SerAh71IiqvQMlgUNfIhz+/esvTjRWZ/3q8Qco3g==}
+  /wrangler@3.50.0:
+    resolution: {integrity: sha512-JlLuch+6DtaC5HGp8YD9Au++XvMv34g3ySdlB5SyPbaObELi8P9ZID5vgyf9AA75djzxL7cuNOk1YdKCJEuq0w==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -5325,7 +5325,7 @@ packages:
       blake3-wasm: 2.1.5
       chokidar: 3.6.0
       esbuild: 0.17.19
-      miniflare: 3.20240405.0
+      miniflare: 3.20240405.1
       nanoid: 3.3.7
       path-to-regexp: 6.2.2
       resolve: 1.22.8
