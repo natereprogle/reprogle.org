@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@cloudflare/next-on-pages':
         specifier: ^1.11.0
-        version: 1.11.0(vercel@34.1.1)(wrangler@3.51.2)
+        version: 1.11.1(vercel@34.1.1)(wrangler@3.51.2)
       '@headlessui/react':
         specifier: ^1.7.18
         version: 1.7.19(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -87,8 +87,8 @@ packages:
   '@cloudflare/kv-asset-handler@0.3.1':
     resolution: {integrity: sha512-lKN2XCfKCmpKb86a1tl4GIwsJYDy9TGuwjhDELLmpKygQhw8X2xR4dusgpC5Tg7q1pB96Eb0rBo81kxSILQMwA==}
 
-  '@cloudflare/next-on-pages@1.11.0':
-    resolution: {integrity: sha512-/wKpDMrp2THkco+O5IKb7/JA07pppop4cRF3LEgL1FhJYxlOn3jo9WsZSuW58PovQJR2tZisLB/EJjJpmt1KOA==}
+  '@cloudflare/next-on-pages@1.11.1':
+    resolution: {integrity: sha512-fDXauz1dM/yNju/n43t2EiLkjekHiDAyNxjRnLamOQHe2oUO4ug+0fwsDn/cy71p/jfmcNdQpE0VrSf6MToEBQ==}
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20240208.0
@@ -2997,8 +2997,8 @@ packages:
   youch@3.3.3:
     resolution: {integrity: sha512-qSFXUk3UZBLfggAW3dJKg0BMblG5biqSF8M34E06o5CSsZtH92u9Hqmj2RzGiHDi64fhe83+4tENFP2DB6t6ZA==}
 
-  zod@3.23.0:
-    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
+  zod@3.23.3:
+    resolution: {integrity: sha512-tPvq1B/2Yu/dh2uAIH2/BhUlUeLIUvAjr6dpL/75I0pCYefHgjhXk1o1Kob3kTU8C7yU1j396jFHlsVWFi9ogg==}
 
   zustand@3.7.2:
     resolution: {integrity: sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==}
@@ -3023,7 +3023,7 @@ snapshots:
     dependencies:
       mime: 3.0.0
 
-  '@cloudflare/next-on-pages@1.11.0(vercel@34.1.1)(wrangler@3.51.2)':
+  '@cloudflare/next-on-pages@1.11.1(vercel@34.1.1)(wrangler@3.51.2)':
     dependencies:
       acorn: 8.11.3
       ast-types: 0.14.2
@@ -5062,7 +5062,7 @@ snapshots:
       workerd: 1.20240405.0
       ws: 8.16.0
       youch: 3.3.3
-      zod: 3.23.0
+      zod: 3.23.3
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -6116,7 +6116,7 @@ snapshots:
       mustache: 4.2.0
       stacktracey: 2.1.8
 
-  zod@3.23.0: {}
+  zod@3.23.3: {}
 
   zustand@3.7.2(react@18.2.0):
     optionalDependencies:
