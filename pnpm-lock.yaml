@@ -19,7 +19,7 @@ importers:
         version: 8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.162.0)
       framer-motion:
         specifier: ^11.0.22
-        version: 11.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 11.3.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       maath:
         specifier: ^0.10.7
         version: 0.10.8(@types/three@0.162.0)(three@0.162.0)
@@ -1563,8 +1563,8 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.3.4:
-    resolution: {integrity: sha512-LC+luwNmz4zEg0AU0rol3yLUFKSJ9GDmIyvigXBAwEbUBG59EWmcRQ2Xh+0py7IkmvWxFUH0TN42v1Dda8xgUg==}
+  framer-motion@11.3.5:
+    resolution: {integrity: sha512-x4rZl+D7EDVGo3Iww6+iunqymvvo2Ih7zsgMiNnhmF4L8zNS4wvSPaay45k0OsFs/fcwdyxn5Kn29u84YzoPGA==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -2569,6 +2569,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.6.3:
+    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
 
@@ -3268,7 +3273,7 @@ snapshots:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.6.2
+      semver: 7.6.3
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -4647,7 +4652,7 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.3.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.3
     optionalDependencies:
@@ -5632,6 +5637,8 @@ snapshots:
       lru-cache: 6.0.0
 
   semver@7.6.2: {}
+
+  semver@7.6.3: {}
 
   set-blocking@2.0.0: {}
 
