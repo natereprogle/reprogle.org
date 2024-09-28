@@ -1,0 +1,27 @@
+.navbar {
+    background: rgba(255, 255, 255, 0.51);
+    border-radius: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.46);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 16px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .navbar {
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.75);
+        color: black;
+    }
+}

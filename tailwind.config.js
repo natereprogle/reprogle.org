@@ -1,19 +1,85 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,ts}", "./src/*.{html,ts}"],
-  theme: {
-    extend: {
-      colors: {
-        "gradient-orange": "#cc8e32",
-        "gradient-purple": "#a27cf2",
-        "dark-base-blue-100": "#010b1f",
-        "dark-base-blue-200": "#021740",
-      },
-      fontFamily: {
-        body: ["Montserrat", "sans-serif"],
-        heading: ["Playfair Display", "serif"],
-      },
+    content: [
+        './app/**/*.{js,ts,jsx,tsx}',
+        './pages/**/*.{js,ts,jsx,tsx}',
+        './components/**/*.{js,ts,jsx,tsx}',
+    ],
+    theme: {
+        extend: {
+            fontFamily: {
+                heading: ['Noto Serif Display', 'serif'],
+            },
+            gridTemplateColumns: {
+                // These may seem odd, but these values are specific to ensure the spacing of the image and the headers.
+                'xl-header': '1.5fr 1fr',
+                'lg-header': '1.8fr 0.7fr',
+                'md-header': '1.8fr 0.7fr',
+                'sm-header': '1fr 0.5fr',
+            },
+            colors: {
+                floralwhite: {
+                    50: '#fffaf3',
+                    100: '#faf5ee',
+                    200: '#f5f0e9',
+                    300: '#e8e3dc',
+                    400: '#c5c0ba',
+                    500: '#a6a29b',
+                    600: '#7d7872',
+                    700: '#68645e',
+                    800: '#49453f',
+                    900: '#27241f',
+                },
+                aliceblue: {
+                    50: '#f3f8ff',
+                    100: '#e3eef8',
+                    200: '#d4e3f1',
+                    300: '#c3d5e8',
+                    400: '#b2c8dd',
+                    500: '#a3bbd4',
+                    600: '#92aabf',
+                    700: '#7f93a5',
+                    800: '#6f7e8e',
+                    900: '#5a6774',
+                },
+                atomictangerine: {
+                    50: '#fff4f3',
+                    100: '#ffe5d8',
+                    200: '#ffd4bc',
+                    300: '#ffc19e',
+                    400: '#ffaf83',
+                    500: '#ff9f6b',
+                    600: '#ff9966',
+                    700: '#ff8f5f',
+                    800: '#ff885b',
+                    900: '#ff7a51',
+                },
+                ivory: {
+                    50: '#fdfff3',
+                    100: '#f7fcda',
+                    200: '#effabe',
+                    300: '#e8f7a1',
+                    400: '#e0f489',
+                    500: '#d9f072',
+                    600: '#d2ea73',
+                    700: '#bad467',
+                    800: '#a4bf5d',
+                    900: '#7e9c4a',
+                },
+                raisinblack: {
+                    50: '#fbfafd',
+                    100: '#f6f5f8',
+                    200: '#f1eff2',
+                    300: '#e3e2e5',
+                    400: '#c1bfc2',
+                    500: '#a2a1a3',
+                    600: '#79787a',
+                    700: '#656366',
+                    800: '#454446',
+                    900: '#242325',
+                },
+            },
+        },
     },
-  },
-  plugins: [],
-};
+    plugins: [],
+}

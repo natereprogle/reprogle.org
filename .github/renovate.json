@@ -4,8 +4,10 @@
     "config:base",
     ":dependencyDashboard"
   ],
-  "baseBranches": ["dev"],
-  "lockFileMaintenance": { 
+  "baseBranches": [
+    "dev"
+  ],
+  "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
     "automergeType": "pr",
@@ -13,12 +15,20 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["lint", "prettier"],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
+        "lint",
+        "prettier"
+      ],
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
