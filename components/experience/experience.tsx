@@ -14,7 +14,7 @@ export default function Experience() {
                     company: 'J.B. Hunt Transport, Inc.',
                     title: 'Software Engineer I',
                     description:
-                        'Working with Genesys Engage On-Prem, I analyze and modify existing routing strategies as well as design, construct and test new software & strategies to meet business needs. I also create reports for business use to allow better insights to call volumes and handling.',
+                        'Working with Microsoft Teams Voice and Genesys Cloud, I work with my team to create APIs to bridge the gap between our cloud services and on-prem systems. Duties also include maintaining legacy Genesys Engage On-Prem systems as well as creating and maintaining reporting for business intelligence purposes.',
                     color: 'blue',
                 }}></ExperienceBlock>
             <ExperienceBlock
