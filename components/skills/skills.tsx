@@ -35,6 +35,10 @@ export default function Skills() {
             </p>
             <hr className="my-4 border-raisinblack-700 dark:border-white" />
             <p className="my-4 w-full">
+                Backend microservice development using <span className="font-bold">.NET 8</span> and <span className="font-bold">ASP.NET Core</span>.
+            </p>
+            <hr className="my-4 border-raisinblack-700 dark:border-white" />
+            <p className="my-4 w-full">
                 Ability to grasp new concepts quickly, and easily teachable. It
                 may not be a &quot;skill&quot;, but it&apos;s a nice trait!
             </p>
