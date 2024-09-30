@@ -1,0 +1,135 @@
+﻿{
+  "type": "object",
+  "description": "A schema representing the definition file for an Ultra Project",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the Ultra Project"
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the Ultra Project"
+    },
+    "version": {
+      "type": "string",
+      "description": "The version of the Ultra Project",
+      "enum": [
+        "1.0.0"
+      ]
+    },
+    "scripts": {
+      "type": "object",
+      "description": "All scripts contained within the Ultra project. Scripts in the Ultra scope will be run against every solution. Consider these \"global\"",
+      "additionalProperties": {
+        "type": "string",
+        "description": "The name of the script and the command it runs against every solution and project"
+      }
+    },
+    "macros": {
+      "type": "object",
+      "description": "All macros contained within the Ultra project. Macros are simply commands that can be executed within the Ultra project. Think of these like scripts in Node's package.json",
+      "additionalProperties": {
+        "type": "string",
+        "description": "The name of the macro and the command it executes"
+      }
+    },
+    "solutions": {
+      "type": "array",
+      "description": "All solutions managed by Ultra",
+      "items": {
+        "type": "object",
+        "description": "A single Ultra project",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the solution"
+          },
+          "identifier": {
+            "type": "string",
+            "description": "The identifier of the solution"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of the solution"
+          },
+          "projects": {
+            "type": "array",
+            "description": "All projects contained within the solution",
+            "items": {
+              "type": "object",
+              "description": "A single project within the solution",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the project, not necessarily the identifier"
+                },
+                "identifier": {
+                  "type": "string",
+                  "description": "The actual name of the dotnet project as it is within the solution"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "The description of the project"
+                },
+                "version": {
+                  "type": "string",
+                  "description": "The version of the project",
+                  "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+                },
+                "scripts": {
+                  "type": "object",
+                  "description": "All scripts contained within the project. Scripts within the project are run only against the project",
+                  "additionalProperties": {
+                    "type": "string",
+                    "description": "The name of the script and the command it executes"
+                  }
+                }
+              },
+              "anyOf": [
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "identifier"
+                  ]
+                }
+              ]
+            },
+            "minItems": 1
+          },
+          "scripts": {
+            "type": "object",
+            "description": "All scripts contained within the solution. Scripts within the solution are run against the entire solution",
+            "additionalProperties": {
+              "type": "string",
+              "description": "The name of the script and the command it executes"
+            }
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "name"
+            ]
+          },
+          {
+            "required": [
+              "identifier"
+            ]
+          }
+        ],
+        "required": [
+          "projects"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "version"
+  ]
+}
