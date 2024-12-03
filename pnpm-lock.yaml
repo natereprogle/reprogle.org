@@ -19,7 +19,7 @@ importers:
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.169.0)
       framer-motion:
         specifier: ^11.0.22
-        version: 11.12.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 11.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       maath:
         specifier: ^0.10.7
         version: 0.10.8(@types/three@0.169.0)(three@0.169.0)
@@ -1692,8 +1692,8 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.12.0:
-    resolution: {integrity: sha512-gZaZeqFM6pX9kMVti60hYAa75jGpSsGYWAHbBfIkuHN7DkVHVkxSxeNYnrGmHuM0zPkWTzQx10ZT+fDjn7N4SA==}
+  framer-motion@11.13.0:
+    resolution: {integrity: sha512-Z+hSzTWX5IwhFnopIPi9rse08gYjfjoR2U9AOaCzpKv269M/8jYFF2ITmfi3saHqsox2tbsnsc7PuRqkTllGJw==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -2200,6 +2200,12 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  motion-dom@11.13.0:
+    resolution: {integrity: sha512-Oc1MLGJQ6nrvXccXA89lXtOqFyBmvHtaDcTRGT66o8Czl7nuA8BeHAd9MQV1pQKX0d2RHFBFaw5g3k23hQJt0w==}
+
+  motion-utils@11.13.0:
+    resolution: {integrity: sha512-lq6TzXkH5c/ysJQBxgLXgM01qwBH1b4goTPh57VvZWJbVJZF/0SB31UWEn4EIqbVPf3au88n2rvK17SpDTja1A==}
+
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -2599,8 +2605,8 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  resolve.exports@2.0.2:
-    resolution: {integrity: sha512-X2UW6Nw3n/aMgDVy+0rSqgHlv39WZAlZrXCdnbyEiKm17DSqHX4MmQMaST3FbeWR5FTuRcUwYAziZajji0Y7mg==}
+  resolve.exports@2.0.3:
+    resolution: {integrity: sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==}
     engines: {node: '>=10'}
 
   resolve@1.22.8:
@@ -4842,8 +4848,10 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.12.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
+      motion-dom: 11.13.0
+      motion-utils: 11.13.0
       tslib: 2.8.1
     optionalDependencies:
       react: 18.3.1
@@ -5362,6 +5370,10 @@ snapshots:
 
   mkdirp@1.0.4: {}
 
+  motion-dom@11.13.0: {}
+
+  motion-utils@11.13.0: {}
+
   mri@1.2.0: {}
 
   ms@2.1.1: {}
@@ -5724,7 +5736,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  resolve.exports@2.0.2: {}
+  resolve.exports@2.0.3: {}
 
   resolve@1.22.8:
     dependencies:
@@ -6293,7 +6305,7 @@ snapshots:
       nanoid: 3.3.8
       path-to-regexp: 6.3.0
       resolve: 1.22.8
-      resolve.exports: 2.0.2
+      resolve.exports: 2.0.3
       selfsigned: 2.4.1
       source-map: 0.6.1
       unenv: unenv-nightly@2.0.0-20241121-161142-806b5c0
