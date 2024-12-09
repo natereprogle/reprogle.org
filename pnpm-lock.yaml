@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@cloudflare/next-on-pages':
         specifier: ^1.11.0
-        version: 1.13.6(vercel@39.1.3)(wrangler@3.93.0)
+        version: 1.13.7(vercel@39.1.3)(wrangler@3.93.0)
       '@headlessui/react':
         specifier: ^2.0.0
         version: 2.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -84,8 +84,8 @@ packages:
     resolution: {integrity: sha512-YLPHc8yASwjNkmcDMQMY35yiWjoKAKnhUbPRszBRS0YgH+IXtsMp61j+yTcnCE3oO2DgP0U3iejLC8FTtKDC8Q==}
     engines: {node: '>=16.13'}
 
-  '@cloudflare/next-on-pages@1.13.6':
-    resolution: {integrity: sha512-7SrvJ5x5+gKYXRGaKqJU8uE205snzQ07mzYLoauL0+yUQo5AJ6ZdRuwg4OVa+duKdDsoGbaD7pMEn7SDK7XAxg==}
+  '@cloudflare/next-on-pages@1.13.7':
+    resolution: {integrity: sha512-TSMVy+1fmxzeyykOC9guMEj7G2FgENw1T8V1sIFnah6piaJNBmybdyikPdQSdikP5w6v9eQhBt/TrXDPMDw0dw==}
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20240208.0
@@ -3154,7 +3154,7 @@ snapshots:
     dependencies:
       mime: 3.0.0
 
-  '@cloudflare/next-on-pages@1.13.6(vercel@39.1.3)(wrangler@3.93.0)':
+  '@cloudflare/next-on-pages@1.13.7(vercel@39.1.3)(wrangler@3.93.0)':
     dependencies:
       acorn: 8.14.0
       ast-types: 0.14.2
