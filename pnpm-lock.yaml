@@ -19,7 +19,7 @@ importers:
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.169.0)
       framer-motion:
         specifier: ^11.0.22
-        version: 11.13.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 11.13.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       maath:
         specifier: ^0.10.7
         version: 0.10.8(@types/three@0.169.0)(three@0.169.0)
@@ -1700,8 +1700,8 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.13.3:
-    resolution: {integrity: sha512-3ZSNuYpDFeNxqVKUyYipOm5A1fXSbMje1XIfEWxKTJ4ughl5FEjvkp6gKmFHLjzwijCVU/PjsMNlTMVCmi+Twg==}
+  framer-motion@11.13.4:
+    resolution: {integrity: sha512-dcFMc0Q7rDGdU3wowanEzbSb+ZdpeCcMBVO6EDyXkkD8Y0VoFJkoa70sNpyiLpNH4CwvUdfwc2gdv8Bo7f1BCw==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -3133,6 +3133,9 @@ packages:
   zod@3.23.8:
     resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
+  zod@3.24.0:
+    resolution: {integrity: sha512-Hz+wiY8yD0VLA2k/+nsg2Abez674dDGTai33SwNvMPuf9uIrBC9eFgIMQxBBbHFxVXi8W+5nX9DcAh9YNSQm/w==}
+
   zustand@3.7.2:
     resolution: {integrity: sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==}
     engines: {node: '>=12.7.0'}
@@ -3193,7 +3196,7 @@ snapshots:
   '@cloudflare/workers-shared@0.10.0':
     dependencies:
       mime: 3.0.0
-      zod: 3.23.8
+      zod: 3.24.0
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -4860,7 +4863,7 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.13.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.13.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       motion-dom: 11.13.0
       motion-utils: 11.13.0
@@ -6390,6 +6393,8 @@ snapshots:
       stacktracey: 2.1.8
 
   zod@3.23.8: {}
+
+  zod@3.24.0: {}
 
   zustand@3.7.2(react@18.3.1):
     optionalDependencies:
