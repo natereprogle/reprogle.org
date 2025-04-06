@@ -22,7 +22,7 @@
     "typescript": "^5.4.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
+    "@types/node": "^22.0.0",
     "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.22",
     "@types/three": "^0.169.0",
