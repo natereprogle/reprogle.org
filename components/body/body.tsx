@@ -42,7 +42,7 @@ export default function Body() {
                 className={`justify-between items-center header-text ${notoSerifDisplay.className}`}
                 ref={h1Ref}>
                 I am a <span ref={blueHighlight}>Software Engineer</span>{' '}
-                working in Contact Center Engineering based in{' '}
+                based in{' '}
                 <span ref={orangeHighlight}>Arkansas</span>. I&apos;ve carried
                 many titles over my career, with{' '}
                 <span ref={greenHighlight}>skills including</span> management,
@@ -65,18 +65,14 @@ export default function Body() {
                     transportation and logistics while continuing my studies.
                     Within 6 months, and not much experience to my name, I moved
                     into a management position where I exceeded even my own
-                    expectations. After graduating, I moved into IT as a Contact
-                    Center Engineer on my company&apos;s Unified Communications
-                    Engineering team. Finally, I recently received a promotion
-                    to Software Engineer on the same team. <br />
+                    expectations. After graduating, I moved into IT on J.B. Hunt's
+                    Unified Communications Engineering team.<br />
                     <br />
-                    While my career is in Contact Center, I have experience with
-                    both system administration and cloud solutions. Hosting my
-                    own servers and services, both on premise and in the cloud,
-                    writing my own website from scratch, and many other projects
-                    I&apos;ve worked on have given me the opportunity to learn
-                    many valuable skills that definitely broaden my portfolio
-                    and horizons.
+                    In November 2025, I felt called to step into the nonprofit sector
+                    and joined Restore Hope, Inc, a 501(c)(3). Working in this field
+                    has been incredibly rewarding, giving me the opportunity to build
+                    meaningful solutions that directly support people, families, and
+                    communities in need.
                 </p>
             </div>
             <div>

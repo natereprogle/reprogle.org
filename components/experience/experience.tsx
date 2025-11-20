@@ -10,12 +10,21 @@ export default function Experience() {
             </h2>
             <ExperienceBlock
                 props={{
-                    timeRange: 'January 2023 - Present',
+                    timeRange: 'November 2025 - Present',
+                    company: 'Restore Hope, Inc.',
+                    title: 'Software Engineer',
+                    description:
+                        'Full-stack Developer at Restore Hope working on HopeHub, a collaborative platform designed to enhance the effectiveness of service providers, government agencies, and non-profits specializing in different areas of care.',
+                    color: 'blue',
+                }}></ExperienceBlock>
+            <ExperienceBlock
+                props={{
+                    timeRange: 'January 2023 - November 2025',
                     company: 'J.B. Hunt Transport, Inc.',
                     title: 'Software Engineer I',
                     description:
                         'Working with Microsoft Teams Voice and Genesys Cloud, I work with my team to create APIs to bridge the gap between our cloud services and on-prem systems. Duties also include maintaining legacy Genesys Engage On-Prem systems as well as creating and maintaining reporting for business intelligence purposes.',
-                    color: 'blue',
+                    color: 'orange',
                 }}></ExperienceBlock>
             <ExperienceBlock
                 props={{
@@ -24,7 +33,7 @@ export default function Experience() {
                     title: 'Contact Center Specialist',
                     description:
                         'Worked with business leaders to design and maintain complex, enterprise-wide Contact Center routing solutions. Worked with leading edge CC technologies to ensure the needs and expectations of both the business and our customers are not only met, but also exceeded.',
-                    color: 'orange',
+                    color: 'green',
                 }}></ExperienceBlock>
             <ExperienceBlock
                 props={{
@@ -33,15 +42,6 @@ export default function Experience() {
                     title: 'Transportation Manager',
                     description:
                         'Managed a fleet of approx. 30 drivers. Dispatched, managed pay, and discussed safety with the fleet. Ensured drivers were DOT compliant and following FMCSA regulations. Handled other duties as assigned.',
-                    color: 'green',
-                }}></ExperienceBlock>
-            <ExperienceBlock
-                props={{
-                    timeRange: 'July 2019 - December 2019',
-                    company: 'J.B. Hunt Transport, Inc.',
-                    title: 'Customer Experience Representative',
-                    description:
-                        'Managed customer relations and priced freight upon request. Worked with truckload division to book freight as well as managed capacity for market areas, among other duties assigned.',
                     color: 'raisin',
                 }}></ExperienceBlock>
         </div>
