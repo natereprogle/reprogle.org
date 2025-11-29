@@ -1,3 +1,6 @@
+# ARCHIVED
+This repo has been archived as I rewrote my site from scratch. For the new site's source, please visit [its repo](https://github.com/natereprogle/website).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
